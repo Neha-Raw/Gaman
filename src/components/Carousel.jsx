@@ -10,19 +10,19 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    imgPath: '../src/assets/firstCarouselImg.jpg',
+    imgPath: '/src/assets/firstCarouselImg.jpg',
     label: 'Chettinad Home, Kandukathan',
   },
   {
-    imgPath: '../src/assets/secondCarouselImg.jpg',
+    imgPath: '/src/assets/secondCarouselImg.jpg',
     label: 'Virupaksha Temple, Hampi',
   },
   {
-    imgPath: '../src/assets/thridCarouselImg.jpg',
+    imgPath: '/src/assets/thridCarouselImg.jpg',
     label: 'Sharavati Backwaters, Honnavara',
   },
   {
-    imgPath: '../src/assets/fourthCarouselImg.jpg',
+    imgPath: '/src/assets/fourthCarouselImg.jpg',
     label: 'Cochin Cultural Centre',
   },
 ];
@@ -75,7 +75,8 @@ function Carousel() {
                     width: '100%',
                     marginTop: '30px',
                     '@media (max-width: 760px)': {
-                      height: 240,
+                      height: 150,
+                      marginTop: '20px',
                     },
                   }}
                   src={step.imgPath}
@@ -94,7 +95,7 @@ function Carousel() {
                       borderRadius: '5px',
                       fontSize: '20px',
                       '@media (max-width: 760px)': {
-                        fontSize: '0.75rem',
+                        fontSize: '0.5rem',
                         bottom: '10px',
                         right: '10px',
                         padding: '2px 5px',

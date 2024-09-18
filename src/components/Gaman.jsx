@@ -2,6 +2,7 @@
 import React from 'react';
 import Carousel from "./Carousel";
 import '.././App.css'
+import '../style/gaman.css'
 import AnimationText from './AnimationText';
 import ReviewSlideshow from './ReviewSlideshow'
 

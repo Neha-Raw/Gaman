@@ -8,7 +8,9 @@
 .gaman-logo-image {
     /* width: 17%; */
     max-height: 75px;
-    margin-top: 37px;
+    /* margin-top: 37px; */
+    /* padding: 10px; */
+  
 
 }
 
@@ -17,9 +19,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px;
     background-color: #f8f5f5;
     color: rgb(189, 29, 29);
+    margin-top: -7px;
 }
 
 .nav-container .logo img {
@@ -45,13 +48,14 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
+   
 }
 
 .hamburger .bar {
-    width: 25px;
-    height: 3px;
-    background-color: rgb(17, 16, 16);
-    margin: 4px 0;
+    width: 20px;
+    height: 2px;
+    background-color: #28397D;
+    margin: 2px 0;
     transition: all 0.3s ease;
 }
 
@@ -70,6 +74,14 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* .nav-links.open{
+    position: absolute;
+} */
 
 
 /* Media Queries for Responsive Design */
